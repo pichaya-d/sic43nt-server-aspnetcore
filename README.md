@@ -11,7 +11,7 @@ Table of Content
 
 ## Basic Concept of SIC43NT 
 
-SIC43NT Tag provide 4 disticnt NDEF contents coded in Hexadecimal string which can be pass to web service directly. The contents including
+SIC43NT Tag provide 4 distinct NDEF contents coded in Hexadecimal string which can be passed to web service directly. The contents includes
 1. **UID** or **Unique ID** **:** 7-bytes UID of this Tag (i.e. "39493000012345")
 1. **Tamper Flag:** 1-byte content reflect status of tamper pin. If tamper pin is connected to the GND, the result is "00". Otherwise Tamper Flag will be "AA" by factory setting value. 
 1. **Time-Stamp:** 4-bytes randomly increasing value (each step of increasing is 1 to 255). This content always increasing each time the tag has been read.
